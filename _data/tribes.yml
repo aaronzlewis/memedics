@@ -1,0 +1,230 @@
+- name: Alt-Right
+  url: alt-right.html
+  description:
+  threat: "The Great Replacement"
+  master: "White Nationalist"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Nouvelle Droite, Identitarians
+
+- name: Antifa
+  url: antifa.html
+  description:
+  threat: "Fascism"
+  master: "Militant"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Anti-Racist Action, Antifaschistische Aktion
+
+- name: Christian Right
+  url: christian-right.html
+  description:
+  threat: "Losing the soul of America"
+  master: "True Christian"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Evangelists, Baptists
+
+- name: Democratic Socialists of America
+  url: dsa.html
+  description:
+  threat: "Neoliberalism"
+  master: "Democratic Socialist"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Michael Harrington, Jeremy Corbyn, Bernie Bros
+
+- name: Establishment Left
+  url: establishment-left.html
+  description:
+  threat: "Inequality"
+  master: "Liberal"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Jimmy Carter, MLK, JFK
+
+- name: Establishment Right
+  url: establishment-right.html
+  description:
+  threat: "Loss of traditional values and economic collapse"
+  master: "Conservative"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: William F. Buckley Jr.
+
+- name: Feminists
+  url: feminists.html
+  description:
+  threat: "Continued Patriarchy"
+  master: "Liberated (biological) woman"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Janice Raymond
+
+- name: Incels
+  url: incels.html
+  description:
+  threat: "Black pilling murder-suicide"
+  master: "Inceldom"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Brian Gilmartin
+
+- name: Info Warriors
+  url: info-warriors.html
+  description:
+  threat: "Complete domination of the New World Order"
+  master: "Exposer of Truth"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Gary Allen, Lyndon LaRouche
+
+- name: Integral Theorists
+  url: integral.html
+  description:
+  threat: "Humanity stuck in Tier 1 consciousness"
+  master: "Tier 2 Consciousness"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Sri Aurobindo, Pierre Teilhard de Chardin
+
+- name: Intellectual Dark Web
+  url: idw.html
+  description:
+  threat: "Intellectual orthodoxy"
+  master: "Intellectual heterodox"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Heterdox Academy
+
+- name: Manosphere
+  url: manosphere.html
+  description:
+  threat: "Cultural enforced emasculation"
+  master: "Neo-masculinist"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Pickup Artists, F. Roger Devlin
+
+- name: Modern Neo-Marxists
+  url: neo-marxists.html
+  description:
+  threat: "Recuperation"
+  master: "Revolutionary"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Marxism, Situationist International, Frankfurt School
+
+- name: Modern Neo-nazis
+  url: neo-nazis.html
+  description:
+  threat: "White Genocide"
+  master: "White Supremacist"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Ku Klux Klan, Skinheads, Nazis
+
+- name: Neoreactionaries
+  url: neoreactionaries.html
+  description:
+  threat: "Unrecoverable social degeneracy"
+  master: "Reactionary"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Thomas Carlyle, Hans-Hermann Hoppe, Peter Thiel
+
+- name: New Atheists
+  url: new-atheists.html
+  description:
+  threat: "Reemergence and dominance of religiosity and irrationality"
+  master: "Atheist"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Bertrand Russell, Charles Darwin
+
+- name: Optimists
+  url: optimists.html
+  description:
+  threat: "A societal retreat to populism and fundamentalism"
+  master: "Global Citizen"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: UN
+
+- name: Post-rationalists
+  url: post-rationalists.html
+  description:
+  threat: "The uninterestingness of eternalist or nihilist worldviews"
+  master: "Mediocre Mediocre"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: James Carse, George Lakoff, Keith Johnstone
+
+- name: Rationalist Diaspora
+  url: rationalists.html
+  description:
+  threat: "Unfriendly AI"
+  master: "Applied Rationalist"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Thomas Bayes, I.J. Good
+
+- name: Social Justice Actvists
+  url: sja.html
+  description:
+  threat: "A set of connecting social systems built around domination, oppression, and submission"
+  master: "Social Activist"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Judith Butler, Kimberle Crenshaw, New Left
+
+- name: Trumpists
+  url: trumpists.html
+  description:
+  threat: "Immigration"
+  master: "True American"
+  campfire:
+  chieftans:
+  combatants:
+  lingo:
+  ancestors: Pat Buchanan, Sarah Palin

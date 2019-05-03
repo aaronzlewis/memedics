@@ -1,0 +1,46 @@
+---
+---
+html {
+
+}
+
+body {
+  background-image: url('bg-image.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 100vh;
+  border: 16px solid white;
+}
+
+.home {
+  width: 84%;
+  margin-left: 8%;
+}
+
+h1, p {
+  font-family: "Vollkorn", "Georgia", serif;
+  font-size: 24px;
+  line-height: 150%;
+}
+
+h1 {
+  font-weight: 700;
+  margin-top: 48px;
+  margin-bottom: 12px;
+}
+
+nav {
+
+  border-bottom: 1px solid black;
+  padding: 24px 0px;
+
+  p {
+    font-family: "Chakra Petch", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+}
