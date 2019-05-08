@@ -5,5 +5,19 @@
 layout: home
 ---
 
-<h1>We’re memetic mediators (memedics for short), and so are you.</h1>
-<p>We need memedics on the battlefiled of the <a href="https://www.ribbonfarm.com/2018/03/06/a-quick-battle-field-guide-to-the-new-culture-wars/">culture wars</a>. We need internet natives who understand that good people can get infected by bad pills. We need maps for understanding our Great Weirding. We’re tracking “meme-fections”, healing “idea viruses”, and helping good ol’ fashioned memes re-integrate into 2019.</p>
+**Things are getting weird out here on the internet.** Memes are being weaponized by extremists. Echo chambers have become easy targets for people who peddle outrage and misinformation.
+
+What if we had more [memetic mediators](https://medium.com/s/world-wide-wtf/memetic-tribes-and-culture-war-2-0-14705c43f6bb) on the front lines of the information war?
+
+Memetic mediation is understanding that good people can get infected by [bad pills](https://en.wikipedia.org/wiki/Red_pill_and_blue_pill). It's making meta-maps and field guides that inoculate us against ideological manipulation. It's bridging divides between siloed tribes. **We're Memetic Mediators—<span>Memedics</span> for short—and so are you.**
+
+<section id="links">
+<p><a class="primary" href="">Culture wars map →</a></p>
+<p><a class="secondary" href="">References →</a></p>
+<p><a class="tertiary" href="">Backstage →</a></p>
+</section>
+
+<div class="blob">
+  <p><span></span></p>
+  <p><span></span></p>
+</div>

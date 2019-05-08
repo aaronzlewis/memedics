@@ -1,47 +1,353 @@
 ---
 ---
-html {
 
-}
+$mobile-margin: 8%;
+$breakpoint-medium: 700px;
+$breakpoint-large: 1000px;
+$sans-serif: "Chakra Petch", sans-serif;
+$serif: "Vollkorn", "Georgia", serif;
+
+#top, #bottom, #left, #right {
+
+	background: white;
+	position: fixed;
+  z-index: 2;
+	}
+
+	#left, #right {
+		top: 0; bottom: 0;
+    width: 12px;
+
+    @media screen and (min-width: $breakpoint-large) {
+      width: 32px;
+    }
+
+		}
+		#left { left: 0; }
+		#right { right: 0; }
+
+	#top, #bottom {
+		left: 0; right: 0;
+    height: 12px;
+
+    @media screen and (min-width: $breakpoint-large) {
+      height: 32px;
+    }
+		}
+		#top { top: 0; }
+		#bottom { bottom: 0; }
 
 body {
   background-image: url('bg-image.png');
-  background-size: cover;
-  background-repeat: no-repeat;
   box-sizing: border-box;
-  height: 100%;
-  border: 16px solid white;
+  background-size: cover;
 }
 
 .home {
   width: 84%;
-  margin-left: 8%;
-  margin-top: 48px;
-  margin-bottom: 48px;
+  margin-left: $mobile-margin;
+  height: 100%;
+  margin-bottom: 72px;
+
+  span {
+    color: #6950D0;
+  }
+
+
+  @media only screen and (min-width: $breakpoint-medium) {
+    width: 70vw;
+    margin-top: 32px;
+  }
+
+  @media only screen and (min-width: $breakpoint-large) {
+    width: 60vw;
+    margin-left: 220px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+  }
 }
 
-h1, p {
-  font-family: "Vollkorn", "Georgia", serif;
+h1, h2, p, li {
+  font-family: $serif;
   font-size: 24px;
-  line-height: 150%;
+  line-height: 140%;
+
+  @media only screen and (min-width: $breakpoint-medium) {
+
+  }
+
+  @media screen and (min-width: $breakpoint-large) {
+    font-size: 36px;
+  }
 }
 
 h1 {
   font-weight: 700;
-  margin-bottom: 12px;
 }
 
+strong {
+  font-weight: 700;
+}
+
+em {
+  font-style: italic;
+}
+
+p {
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: underline;
+  transition: box-shadow 0.1s ease-in;
+  color: black;
+}
+
+a.primary {
+  box-shadow: inset 0 -12px 0 #A596E3;
+
+  @media only screen and (min-width: $breakpoint-large) {
+      box-shadow: inset 0 -22px 0 #A596E3;
+  }
+
+}
+
+a.secondary {
+  box-shadow: inset 0 -12px 0 #DC8FC1;
+
+  @media only screen and (min-width: $breakpoint-large) {
+      box-shadow: inset 0 -22px 0 #DC8FC1;
+  }
+}
+
+a.tertiary {
+  box-shadow: inset 0 -12px 0 #8BD3C0;
+
+  @media only screen and (min-width: $breakpoint-large) {
+      box-shadow: inset 0 -22px 0 #8BD3C0;
+  }
+}
+
+a.signup {
+  box-shadow: inset 0 -12px 0 #8BD3C0;
+
+  @media only screen and (min-width: $breakpoint-large) {
+      box-shadow: inset 0 -22px 0 #8BD3C0;
+  }
+}
+
+section#links {
+  margin-top: 48px;
+
+  font-weight: 600;
+
+  p { margin-top: 32px; }
+  a {
+    font-family: $sans-serif;
+    text-decoration: none;
+  }
+
+  @media only screen and (min-width: $breakpoint-large) {
+    margin-top: 72px;
+  }
+
+}
+
+
 nav {
+  padding: 48px 0px;
 
-  border-bottom: 1px solid black;
-  padding: 24px 0px;
+  div {
+    height: 100%;
+  }
 
-  p {
-    font-family: "Chakra Petch", sans-serif;
-    font-size: 16px;
+  span {
+    font-family: $sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
     text-align: center;
     font-weight: 700;
     letter-spacing: 0.1em;
+    margin-top: 0;
   }
+
+
+  span#title, span#year {
+    @media screen and (min-width: $breakpoint-large) {
+      position: absolute;
+      display: inline-block;
+      transform: rotate(-90deg);
+    }
+  }
+
+  span#title {
+    margin-left: $mobile-margin;
+    float: left;
+
+    @media screen and (min-width: $breakpoint-large) {
+      float: none;
+      margin-left: 0;
+      left: 20px;
+      top: 104px;
+    }
+
+  }
+
+  span#year {
+    float: right;
+    margin-right: $mobile-margin;
+
+    @media screen and (min-width: $breakpoint-large) {
+      float: none;
+      margin-right: 0;
+      left: 36px;
+      bottom: 104px;
+    }
+
+  }
+
+  @media screen and (min-width: $breakpoint-large) {
+    padding: 0;
+    border-right: 2px solid black;
+    float: left;
+    position: fixed;
+    height: 100vh;
+    width: 120px;
+    top: 0;
+
+  }
+}
+
+
+/// --- TRIBES --- ///
+
+section#tribes {
+  background-color: black;
+  width: 84%;
+  margin-left: 8%;
+  margin-top: 8%;
+  margin-bottom: 8%;
+
+  h1, h2, p, a, ul {
+    color: white;
+    font-size: 24px;
+  }
+
+  h1 {
+    font-size: 40px;
+    line-height: 120%;
+  }
+
+  h2 {
+    margin-top: 12px;
+    font-weight: 700;
+  }
+
+  p {
+    opacity: 0.5;
+  }
+
+  ul {
+    margin-top: 56px;
+    font-family: $serif;
+  }
+
+  li {
+    margin-top: 40px;
+  }
+
+  div#content {
+    padding: 32px;
+  }
+}
+
+
+
+/// --- BLOB --- ///
+
+.blob {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 20%;
+  left: 60%;
+  margin: -250px;
+  z-index: -1;
+  filter:blur(10px);
+
+  span {
+    background: #A596E3;
+
+    position: absolute;
+    border-radius: 50%;
+    display: inline-block;
+  }
+
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+
+  p:nth-child(1) {
+    position: absolute;
+    animation: skewing-child .8s ease-in-out infinite alternate;
+
+    span {
+      width: 500px;
+      height: 500px;
+      margin: -25px;
+      animation: moving 8s cubic-bezier(.97,.01,.12,.99) infinite alternate;
+    }
+  }
+
+  p:nth-child(2) {
+    position: absolute;
+    animation: squishing 6s ease-in-out infinite alternate;
+
+    span {
+      width: 570px;
+      height: 570px;
+      top: 50%;
+      left: 50%;
+      margin: -60px;
+      animation: skewing 8s 6s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes skewing {
+  0% { transform: skewX(6deg); }
+  10% { transform: skewX(-6deg); }
+  20% { transform: skewX(4deg); }
+  30% { transform: skewX(-4deg); }
+  40% { transform: skewX(2deg); }
+  50% { transform: skewX(-6deg); }
+  55% { transform: skewX(6deg); }
+  60% { transform: skewX(-5deg); }
+  65% { transform: skewX(5deg); }
+  70% { transform: skewX(-4deg); }
+  75% { transform: skewX(4deg); }
+  80% { transform: skewX(-3deg); }
+  85% { transform: skewX(3deg); }
+  90% { transform: skewX(-2deg); }
+  95% { transform: skewX(2deg); }
+  100%   { transform: skewX(1deg); }
+}
+
+@keyframes skewing-child {
+  0%      { transform: skewX(-10deg); }
+  100%     { transform: skewX(10deg); }
+}
+
+@keyframes moving {
+  0% {transform: translate(-200px);}
+  30% {transform: translate(-45px);}
+  70% {transform: translate(45px);}
+  100% {transform: translate(200px);}
+}
+
+@keyframes squishing {
+  10%, 40%, 80% { transform: scale(1, .9); }
+  0%, 30%, 60%, 100% {transform: scale(.9, 1);}
 }
