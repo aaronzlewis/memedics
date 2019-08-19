@@ -53,10 +53,13 @@ $serif: "Vollkorn", "Georgia", serif;
 }
 
 html {
-	background: url('bg-image.png') no-repeat center center fixed;
 	height: 100%;
 	width: 100%;
 	overflow-x: hidden;
+
+	@media only screen and (min-width: $breakpoint-medium) {
+		background: url('bg-image.png') no-repeat center center fixed;
+	}
 }
 
 body {
